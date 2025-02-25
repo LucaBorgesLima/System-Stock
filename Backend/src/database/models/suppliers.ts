@@ -30,7 +30,7 @@ Suppliers.init({
     unique: true,
     validate: {
       notEmpty: true,
-      is: /^\d{14}$/ // Validação para CNPJ com 14 dígitos
+      is: /^\d{14}$/ 
     }
   },
   contact: {
